@@ -103,3 +103,8 @@ img {
     overflow: hidden;
     padding: clamp(16px, 4vw, 48px) 16px;
 }
+
+#error_message {
+    display: none;
+    color: red;
+}
