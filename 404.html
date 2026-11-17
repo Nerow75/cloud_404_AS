@@ -1,11 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 404</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="image_section">
+        <img src="bg.svg" alt="background" id="background" />
+        <img src="illustration.svg" alt="illustration" id="illustration" />
+      </div>
+      <div id="container">
+        <form action="" id="search">
+          <label for="search_field"
+            >Find code, projects, and people on GitHub:</label
+          >
+          <input type="text" id="search_field" />
+          <input type="submit" value="Search" class="btn" />
+        </form>
+        <div id="links" class="elements">
+          <a href="https://help.github.com/?tags=dotcom-404">Contact support</a>
+          <a href="https://githubstatus.com/">GitHub Status</a
+          ><a href="https://x.com/githubstatus">@githubstatus</a>
+        </div>
+        <a href="https://github.com/"
+          ><img src="github.png" alt="Logo GitHub" id="logo"
+        /></a>
+      </div>
+    </main>
+  </body>
 </html>
